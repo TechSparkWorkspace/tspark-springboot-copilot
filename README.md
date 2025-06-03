@@ -1,45 +1,55 @@
 # TechSpark SpringBoot CoPilot 
 
-Welcome to the Spring Boot Starter Template Repository! This project provides a ready-to-use Spring Boot Starter setup,
-helping you jumpstart new applications quickly and efficiently.
+A minimal Spring Boot starter project designed to explore and showcase the power of **GitHub Copilot** in real-world backend development workflows.
 
-## Getting Started
+---
 
-- Click the “Use this template” button at the top of this repository’s page.
-- Provide a name for your new repository and choose whether it should be public or private.
-- Click “Create repository from template” to generate your own copy.
- 
-## Clone Your New Repository
+## ✨ Overview
 
-- Open your new repository on GitHub.
-- Click the “Code” button and copy the repository URL.
-- Run git clone <your-repo-url> in your terminal to clone the code locally.
+This project is your sandbox to see how GitHub Copilot can:
+- Autocomplete Spring Boot boilerplate
+- Generate JPA queries
+- Suggest unit tests
+- Guide DTO mapping
+- And assist throughout the typical controller → service → repository flow
 
-## Customize Project Settings
+Whether you're new to Copilot or looking to fine-tune your dev workflow, this repo helps you *code smarter, not harder*.
 
-- Update the build.gradle (Gradle) file with your group ID, artifact ID, or any relevant project information.
-- If necessary, rename packages or modules to suit your organization’s naming conventions.
+---
 
-## Build and Run the Application
+## 🚀 Getting Started
 
-```shell
-./gradlew build bootRun
+### Clone the Repo
+
+```bash
+git clone https://github.com/TechSparkWorkspace/tspark-springboot-copilot.git
+cd tspark-springboot-copilot
 ```
 
-Open your browser and goto [API Documentation](http://localhost:8080/swagger-ui/index.html)
+### Run the App
+```bash
+./gradlew bootRun
+```
+The app will start on http://localhost:8080.
 
-- Access the running application by opening your browser at http://localhost:8080 (unless you changed the port).
 
-## Starter Template Features
+## 🤖 Enable GitHub Copilot
 
-This starter template comes with below features.
+To get the most from this project, make sure GitHub Copilot is set up:
 
-- Spring Boot Web, Validation, JPA, and Actuator
-- SpringDoc OpenAPI with Swagger UI
-- Lombok for reducing boilerplate code
-- MapStruct for DTO-to-Entity conversion
-- H2 In-Memory Database for testing
-- Stock Portfolio CRUD with Service, Repo, Controller
-- Global Exception Handling with @ControllerAdvice
-- JUnit 5 & Mockito for unit testing
-- Feature-based folder structure
+- Install the GitHub Copilot plugin for [IntelliJ IDEA](https://plugins.jetbrains.com/plugin/17718-github-copilot) or [VS Code](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot).
+- Sign in with your GitHub account.
+- Ensure your subscription is active:
+  [👉 Manage GitHub Copilot](https://github.com/settings/copilot/features)
+
+## 💡 Tips for Using Copilot
+
+- Use descriptive method names and comments as prompts.
+- Type slowly and let Copilot suggest completions.
+- Accept suggestions with Tab or tweak as needed.
+- Add TODOs and let Copilot fill them out.
+  
+## 📚 Suggested Reading
+- [Boosting Productivity: Integrating GitHub Copilot into Your Spring Boot Projects](https://medium.com/fullstack-launchpad-novice-edition) 
+
+
