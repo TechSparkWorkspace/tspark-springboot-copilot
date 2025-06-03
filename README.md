@@ -1,4 +1,4 @@
-# Spring Boot Starter Template Repository
+# TechSpark SpringBoot CoPilot 
 
 Welcome to the Spring Boot Starter Template Repository! This project provides a ready-to-use Spring Boot Starter setup,
 helping you jumpstart new applications quickly and efficiently.
